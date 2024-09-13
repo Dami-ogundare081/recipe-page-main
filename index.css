@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: YoungSerif;
+    src: url(font/YoungSerif-Regular.ttf);
+}
+body{
+    font-family: "YoungSerif", sans-serif;
+    background-color: hsl(30, 18%, 87%);
+}
+.container{
+    position: relative;
+    background-color: white;
+    width: 550px;
+    height: 107rem;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+div.img{
+    /* padding: 5px; */
+}
+img{
+    width: 500px;
+    height: 300px;
+    border-radius: 25px;
+    margin-left: 25px;
+    margin-top: 20px;
+    
+}
+h1{
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 20px;
+}
+#easy{
+    font-size: 13px;
+    font-weight: 400;
+    justify-content: center;
+    padding: 20px;
+    margin-top: -30px;
+    line-height: 2;
+}
+.mini-container{
+    background-color: hsl(330, 100%, 98%);
+    width: 500px;
+    height: 160px;
+    position: relative;
+    margin-left: 23px;
+}
+h4{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.list{
+    align-items: center;
+    margin-left: 26px;
+    justify-content: space-between;
+    line-height: 2;
+}
+h2{
+    font-size: 25px;
+    margin-left: 30px;
+    margin: 20px;
+    color: hsl(14, 45%, 36%);
+}
+.ordered{
+    margin-top: -10px;
+    margin-left: 30px;
+    line-height: 2;
+}
+hr{
+    margin-top: 30px;
+    width: 500px;
+    margin-left: 25px;
+}
+h3{
+    font-size: 25px;
+    margin: 10px;
+    margin-left: 15px;
+    color: hsl(14, 45%, 36%);
+}
+.eggs{
+    font-size: 14px;
+    font-weight: 400;
+    width: 500px;
+    margin-left: 30px;
+    line-height: 2;
+}
+h4{
+    font-size: 25px;
+    color: hsl(14, 45%, 36%);
+}
+#nutrition{
+    position: relative;
+    font-size: 15px;
+    padding: 10px;
+}
+.kg{
+    list-style: none;
+    margin-right: 380px;
+    text-align: center;
+    justify-content: space-between;
+    line-height: 2;
+}
+hr#line{
+    margin-top: 10px;
+}
+.mini{
+    list-style: none;
+    margin-left: 20rem;
+    margin-top: -170px;
+    line-height: 2.8;
+    color: hsl(14, 45%, 36%);
+}

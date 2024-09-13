@@ -118,3 +118,6 @@ hr#line{
     line-height: 2.8;
     color: hsl(14, 45%, 36%);
 }
+@media screen and (max-width:400px){
+    body{background-color: aliceblue;}
+}
